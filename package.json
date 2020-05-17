@@ -4,7 +4,9 @@
   "description": "Projeto final do curso de testes automatizados",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test-jasmine": "jasmine",
+    "test-dev": "karma start",
+    "test": "karma start --single-run"
   },
   "repository": {
     "type": "git",
